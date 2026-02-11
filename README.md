@@ -1,1 +1,249 @@
-"# HTML_PROJET" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVOIR1</title>
+    <link rel="stylesheet" href="css.css">
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box  ;
+    width: 100%;
+    background: rgb(165, 164, 164);
+    padding: 10px;
+    position: fixed;
+
+}
+.SALUTATION{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.div_nav{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+     color: rgb(228, 58, 67);
+    letter-spacing: 0.2em;
+}
+section{
+    padding: 40px 40px;
+}
+.profil img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+.infos p{
+    display: flex;
+}
+.div_present{
+    display: flex;
+}
+button{
+    border-radius:30px;
+    padding: 12px; 
+    color: rgb(233, 9, 9);    
+}
+#explor{
+    background-color: brown;
+    color: aliceblue;
+}
+.fiel{
+    display: flex;
+    gap: 20px;
+}
+.DIV1{
+    width:300px ;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid rgb(3, 2, 8);
+}
+.DIV2{
+    width:300px ;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid rgb(3, 2, 8);
+}
+.DIV3{
+    width:300px ;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid rgb(3, 2, 8);
+}
+#A1{
+    color: brown;
+}
+#A2{
+    color: brown;
+}
+#A3{
+    color: brown;
+}
+.about{
+    display: flex;
+}
+ol{
+    font-family: 'Times New Roman', Times, serif;
+     text-transform: uppercase;
+
+}
+.img_team{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+}
+.div_cont1{
+    display: flex;
+}
+#subs{
+    padding-left:100px;
+    background-color: brown;
+    color: aliceblue;
+    border: 2px;
+    border-radius: 7px;
+}
+</head>
+<body>
+    <header>
+        <div class="SALUTATION">
+            <span>HELLO</span>
+        </div>
+        <div class="div_nav">
+            <Nav>
+            <ul>
+                 <a href="">HOME</a></li>
+                 <a href="">SERVICE</a></li>
+                 <a href="">ABOUT</a></li>
+                 <a href="">TEAM</a></li>
+                 <a href="">PRICING</a></li>
+                 <a href="">BLOG</a></li>
+                 <a href="">CONTACT</a></li>
+
+            </ul>
+        </Nav>
+        </div>
+    </header>
+    <section id="presentation">
+        <div class="div_present">
+        <div class="info">
+        <h1> A Digital Agency Specilized in Al and web3.0</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+            sint ea fuga placeat error esse commodi eligendi quas necessitatibus magnam nisi voluptatibus, nemo
+            blanditiis!
+        </p>
+           <button id="explor">Explore Now</button>
+            <button>free trial</button>
+        </div>
+        
+        <div class="profil">
+            <img src="pp.png" alt="pp.png">
+        </div>
+        </div>
+    </section>
+    <section id="service">
+        <h1>We are giying you perfect solutions with our proficient service.</h1>
+        <div class="fiel">
+            <div class="DIV1">
+                <h4>machine vision</h4>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+                </p>
+                <a id="A1" href="">learn more</a>
+            </div>
+             <div class="DIV2">
+                <h4>AI ANALYSIS</h4>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+                
+                </p>
+                <a id="A2" href="">learn more</a>
+            </div>
+            <div class="DIV3">
+                <h4>Robotic process</h4>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+                </p>
+                <a id="A3" href="">learn more</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1>
+            Our design approach is very organized to ensure satisfaction for our esteemed clients.
+        </h1>
+        <div class="about">
+        <div class="img_about">
+            <img src="ada.avif" alt="ada.avif">
+        </div>
+        <div class="div_about">
+            <ul>
+                <ol>PLANNING</ol>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+                sint ea fuga</P>
+                 <ol>LAUNCH</ol>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusamus minus autem, dolores voluptatum illum,
+                sint ea fuga</P>
+                 <ol>FINALIZE PRODUCT</ol>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <section>
+        <h1>We are a groupe of innovative, experienced, and proficient teams.</h1>
+        <div class="img_team">
+            <img src="imm1.webp" alt="imm1.webp">
+            <img src="IMM2.png" alt="IMM2.png">
+            <img src="IMM3.avif" alt="IMM3.avif">
+            <img src="IMM4.jpg" alt="IMM4.jpg">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="div_cont1">
+        <div>
+            <h3>Get in touch</h3>
+            <h5>8014 Edith blvd NE, Albuquerque, New York, United States</h5>
+            <p>(505) 783 37 31</p>
+            <P>demo@yourdomain.com</P>
+        </div>
+        <div>
+             <h3>service</h3>
+            <p>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Et accusamus minus
+                  autem, dolores voluptatum illum,
+                sint ea fuga</p>
+        </div>
+        <div>
+             <h3>company</h3>
+            <p>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Et accusamus minus
+                  autem, dolores voluptatum illum,
+                sint ea fuga</p>
+        </div>
+        <div>
+             <h3>our Newsletter</h3>
+            <p>subscribe to our newsletter to get our news & disccounts</p>
+            <input type="email" placeholder="Email Adress">
+            <button id="subs">subscribe</button>
+        </div>
+        </div>
+    </section>
+</body>
+</html>"# HTML_PROJET" 
